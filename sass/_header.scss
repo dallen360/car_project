@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 13vh;
+  ///////////////////////////////
+  // Left header
+  ///////////////////////////////
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+  }
+
+  &__title {
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 2rem;
+  }
+
+  &__logo {
+    height: 9rem;
+  }
+  ///////////////////////////////
+  // Right header
+  ///////////////////////////////
+  &__right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 40%;
+  }
+
+  &__item {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover {
+      color: rgb(90, 176, 226);
+    }
+
+    &--selected {
+      font-weight: 900;
+    }
+
+    &--button {
+      background-color: rgb(90, 176, 226);
+      padding: 1rem 3rem;
+      border-radius: 0.3rem;
+
+      &:hover {
+        background-color: white;
+        color: rgb(90, 176, 226);
+      }
+    }
+  }
+}

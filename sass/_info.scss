@@ -1,0 +1,18 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 10%;
+  padding: 3rem 0;
+
+  &__primary {
+    font-size: 2rem;
+    color: rgb(90, 176, 226);
+    margin-bottom: 1rem;
+  }
+
+  &__secondary {
+    font-size: 2rem;
+    color: white;
+  }
+}
